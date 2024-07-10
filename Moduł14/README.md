@@ -1,22 +1,30 @@
-# Modu³ 14: Zarz¹dzanie projektem
-# Modu³ 14: Zarz¹dzanie projektem
+# Module 14: Project Management
 
-## Lekcja 1: Wprowadzenie do Agile i Scrum
+## Lesson 1: Introduction to Agile and Scrum
 
-### Teoria:
+### Theory:
 
-- Agile i Scrum: Metodologie zarz¹dzania projektem, które promuj¹ iteracyjne i przyrostowe podejœcie do tworzenia oprogramowania.
+- **Agile and Scrum**: Project management methodologies that promote iterative and incremental development.
 
-  - Dokumentacja: [Scrum Guide](https://scrumguides.org/scrum-guide.html)
+  - Documentation: [Scrum Guide](https://scrumguides.org/scrum-guide.html)
 
-### Przyk³ad:
+### Example:
 
-- Tworzenie backlogu produktu, planowanie sprintu i prowadzenie retrospektyw.
+Create a product backlog, plan a sprint, and conduct a retrospective.
 
-### Proste zadanie:
+### Step-by-step Task:
 
-- Stwórz prosty backlog produktu dla swojego projektu.
+1. Create a simple product backlog for your project.
 
-### Zaawansowane zadanie:
+2. Plan a sprint and assign tasks to team members.
 
-- PoprowadŸ pe³ny cykl sprintu, od planowania do retrospektywy, w oparciu o swój projekt.
+3. Conduct a sprint retrospective to discuss what went well and what could be improved.
+
+### Detailed Task:
+
+Manage a project from start to finish using Agile and Scrum methodologies.
+
+### Advanced Task:
+
+Lead a full sprint cycle for your project, including sprint planning, daily stand-ups, sprint review, and retrospective.
+

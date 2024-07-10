@@ -1,38 +1,42 @@
-# Modu³ 4: Zaawansowane koncepcje Vue.js
-# Modu³ 4: Zaawansowane koncepcje Vue.js
+# Module 4: Advanced Vue.js Concepts
 
-## Lekcja 1: Render Functions i JSX
+## Lesson 1: Render Functions and JSX
 
-### Teoria:
+### Theory:
 
-- Render Functions: jak u¿ywaæ funkcji renderuj¹cych do tworzenia dynamicznych komponentów.
+- **Render Functions**: Using render functions to create dynamic components.
 
-  - Dokumentacja: [Vue.js Render Functions](https://vuejs.org/v2/guide/render-function.html)
+  - Documentation: [Vue.js Render Functions](https://vuejs.org/v2/guide/render-function.html)
 
-### Przyk³ad:
+### Example:
 
-`ue
-
-<script>
+`js
 
 export default {
 
   render(h) {
 
-    return h('div', { class: 'hello' }, 'Hello World')
+    return h('div', { class: 'hello' }, 'Hello World');
 
   }
 
 }
 
-</script>
+` 
 
+### Step-by-step Task:
 
+1. Create a simple component using a render function.
 
-### Proste zadanie:
+2. Add props to the render function.
 
-- Stwórz komponent wykorzystuj¹cy funkcjê renderuj¹c¹.
+3. Render dynamic content based on the props.
 
-### Zaawansowane zadanie:
+### Detailed Task:
 
-- U¿yj JSX do stworzenia dynamicznego komponentu z warunkowym renderowaniem.
+Create a component using JSX to render dynamic content based on user input.
+
+### Advanced Task:
+
+Build a complex dynamic form using render functions or JSX, including validation and error handling.
+

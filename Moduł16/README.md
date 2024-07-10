@@ -1,34 +1,42 @@
-# Modu³ 16: Wdro¿enie
-# Modu³ 16: Wdro¿enie
+# Module 16: Deployment
 
-## Lekcja 1: Wdro¿enie na Firebase Hosting
+## Lesson 1: Deploying to Firebase Hosting
 
-### Teoria:
+### Theory:
 
-- Firebase Hosting: Jak wdro¿yæ aplikacjê na Firebase Hosting.
+- **Firebase Hosting**: How to deploy your application to Firebase Hosting.
 
-  - Dokumentacja: [Firebase Hosting Documentation](https://firebase.google.com/docs/hosting)
+  - Documentation: [Firebase Hosting Documentation](https://firebase.google.com/docs/hosting)
 
-### Przyk³ad:
+### Example:
 
 `ash
 
-# Zbuduj aplikacjê
+# Build your application
 
 npm run build
 
 
 
-# Wdró¿ na Firebase Hosting
+# Deploy to Firebase Hosting
 
 firebase deploy
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Build your application for production.
 
-- Wdró¿ prost¹ aplikacjê na Firebase Hosting.
+2. Deploy your application to Firebase Hosting.
 
-### Zaawansowane zadanie:
+3. Verify the deployment by accessing the deployed URL.
 
-- Skonfiguruj niestandardowe domeny i certyfikaty SSL dla swojej aplikacji.
+### Detailed Task:
+
+Set up custom domains and SSL certificates for your deployed application on Firebase Hosting.
+
+### Advanced Task:
+
+Deploy a large-scale application with multiple environments (development, staging, production) using Firebase Hosting.
+

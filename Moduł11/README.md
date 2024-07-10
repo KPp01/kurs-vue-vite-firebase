@@ -1,15 +1,14 @@
-# Modu³ 11: Firebase Functions
-# Modu³ 11: Firebase Functions
+# Module 11: Firebase Functions
 
-## Lekcja 1: Wprowadzenie do Cloud Functions
+## Lesson 1: Introduction to Cloud Functions
 
-### Teoria:
+### Theory:
 
-- Firebase Functions: Jak tworzyæ i wdra¿aæ funkcje chmurowe za pomoc¹ Firebase.
+- **Firebase Functions**: How to create and deploy cloud functions using Firebase.
 
-  - Dokumentacja: [Firebase Functions Documentation](https://firebase.google.com/docs/functions)
+  - Documentation: [Firebase Functions Documentation](https://firebase.google.com/docs/functions)
 
-### Przyk³ad:
+### Example:
 
 `js
 
@@ -23,12 +22,21 @@ exports.helloWorld = functions.https.onRequest((request, response) => {
 
 });
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Set up Firebase Functions in your project.
 
-- Stwórz prost¹ funkcjê chmurow¹, która zwraca wiadomoœæ 'Hello World'.
+2. Create a simple cloud function that returns a 'Hello World' message.
 
-### Zaawansowane zadanie:
+3. Deploy the function to Firebase.
 
-- Dodaj funkcje do obs³ugi CRUD dla Firestore za pomoc¹ Firebase Functions.
+### Detailed Task:
+
+Create a set of cloud functions to handle CRUD operations for a Firestore collection.
+
+### Advanced Task:
+
+Develop a comprehensive backend system using Firebase Functions, including authentication and data processing.
+

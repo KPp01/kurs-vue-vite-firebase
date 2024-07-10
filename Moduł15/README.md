@@ -1,15 +1,14 @@
-# Modu³ 15: CI/CD
-# Modu³ 15: CI/CD
+# Module 15: CI/CD
 
-## Lekcja 1: Wprowadzenie do CI/CD
+## Lesson 1: Introduction to CI/CD
 
-### Teoria:
+### Theory:
 
-- CI/CD: Continuous Integration i Continuous Deployment - procesy automatyzacji budowania, testowania i wdra¿ania aplikacji.
+- **CI/CD**: Continuous Integration and Continuous Deployment - automating the building, testing, and deploying of applications.
 
-  - Dokumentacja: [GitHub Actions](https://docs.github.com/en/actions)
+  - Documentation: [GitHub Actions](https://docs.github.com/en/actions)
 
-### Przyk³ad:
+### Example:
 
 `yaml
 
@@ -65,14 +64,27 @@ jobs:
 
     - name: Deploy to Firebase
 
+      run: firebase deploy --token $`{{ secrets.FIREBASE_TOKEN }} 
+
       env:
 
+        FIREBASE_TOKEN: $`{{ secrets.FIREBASE_TOKEN }} 
 
+` 
 
-### Proste zadanie:
+### Step-by-step Task:
 
-- Skonfiguruj prosty pipeline CI/CD dla swojego projektu.
+1. Set up a simple CI/CD pipeline for your project using GitHub Actions.
 
-### Zaawansowane zadanie:
+2. Add steps for building and testing your application.
 
-- Zaimplementuj pe³ny pipeline CI/CD z automatycznym testowaniem i wdra¿aniem aplikacji.
+3. Deploy your application to Firebase Hosting using the CI/CD pipeline.
+
+### Detailed Task:
+
+Create a CI/CD pipeline with automated testing and deployment for your project.
+
+### Advanced Task:
+
+Develop a comprehensive CI/CD pipeline that includes code quality checks, automated testing, and deployment to multiple environments.
+

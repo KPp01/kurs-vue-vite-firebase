@@ -1,22 +1,30 @@
-# Modu³ 18: Zarz¹dzanie projektem
-# Modu³ 18: Zarz¹dzanie projektem
+# Module 18: Project Management
 
-## Lekcja 1: Narzêdzia do zarz¹dzania projektem
+## Lesson 1: Project Management Tools
 
-### Teoria:
+### Theory:
 
-- Narzêdzia do zarz¹dzania projektem: Jak u¿ywaæ narzêdzi takich jak Jira, Trello, Asana do zarz¹dzania projektem.
+- **Project Management Tools**: How to use tools like Jira, Trello, and Asana to manage your project.
 
-  - Dokumentacja: [Jira Documentation](https://www.atlassian.com/software/jira/guides)
+  - Documentation: [Jira Documentation](https://www.atlassian.com/software/jira/guides)
 
-### Przyk³ad:
+### Example:
 
-- Tworzenie tablicy projektowej w Trello z listami zadañ.
+Create a project board in Trello with task lists.
 
-### Proste zadanie:
+### Step-by-step Task:
 
-- Stwórz tablicê w Trello z zadaniami dla swojego projektu.
+1. Set up a Trello board for your project.
 
-### Zaawansowane zadanie:
+2. Create task lists and assign tasks to team members.
 
-- Skonfiguruj Jira do zarz¹dzania swoim projektem, tworz¹c epiki, historie i zadania.
+3. Track task progress and update the board regularly.
+
+### Detailed Task:
+
+Set up Jira for project management, creating epics, stories, and tasks for your project.
+
+### Advanced Task:
+
+Manage a complex project using Jira, including sprint planning, backlog grooming, and reporting.
+

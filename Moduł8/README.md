@@ -1,15 +1,14 @@
-# Modu³ 8: Zarz¹dzanie stanem z Vuex
-# Modu³ 8: Zarz¹dzanie stanem z Vuex
+# Module 8: State Management with Vuex
 
-## Lekcja 1: Wprowadzenie do Vuex
+## Lesson 1: Introduction to Vuex
 
-### Teoria:
+### Theory:
 
-- Vuex: Centralny magazyn stanu dla aplikacji Vue.js, który umo¿liwia zarz¹dzanie stanem na poziomie globalnym.
+- **Vuex**: A state management pattern and library for Vue.js applications.
 
-  - Dokumentacja: [Vuex Documentation](https://vuex.vuejs.org/)
+  - Documentation: [Vuex Documentation](https://vuex.vuejs.org/)
 
-### Przyk³ad:
+### Example:
 
 `js
 
@@ -45,12 +44,21 @@ const store = createStore({
 
 export default store;
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Install and configure Vuex in your Vue project.
 
-- Skonfiguruj Vuex w swoim projekcie Vue.
+2. Create a simple state with a count variable.
 
-### Zaawansowane zadanie:
+3. Implement a mutation to increment the count.
 
-- Dodaj akcje i modu³y do zarz¹dzania bardziej z³o¿onym stanem aplikacji.
+### Detailed Task:
+
+Create a Vuex store with multiple state variables and mutations to manage them.
+
+### Advanced Task:
+
+Build a complex state management system in your Vue application, including actions, getters, and modules.
+

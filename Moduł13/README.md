@@ -1,15 +1,14 @@
-# Modu³ 13: Testowanie end-to-end (E2E)
-# Modu³ 13: Testowanie end-to-end (E2E)
+# Module 13: End-to-end Testing (E2E)
 
-## Lekcja 1: Wprowadzenie do Cypress
+## Lesson 1: Introduction to Cypress
 
-### Teoria:
+### Theory:
 
-- Cypress: Narzêdzie do testowania end-to-end aplikacji webowych.
+- **Cypress**: A tool for end-to-end testing of web applications.
 
-  - Dokumentacja: [Cypress Documentation](https://docs.cypress.io/)
+  - Documentation: [Cypress Documentation](https://docs.cypress.io/)
 
-### Przyk³ad:
+### Example:
 
 `js
 
@@ -31,12 +30,21 @@ describe('My First Test', () => {
 
 });
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Install Cypress in your project.
 
-- Stwórz prosty test E2E dla swojej aplikacji z u¿yciem Cypress.
+2. Create a simple E2E test for your Vue application.
 
-### Zaawansowane zadanie:
+3. Run the test and verify the output.
 
-- Napisz zestaw testów E2E dla g³ównych funkcji swojej aplikacji.
+### Detailed Task:
+
+Write E2E tests for the main features of your Vue application using Cypress.
+
+### Advanced Task:
+
+Develop a comprehensive E2E test suite for your Vue application, covering all critical user flows and edge cases.
+

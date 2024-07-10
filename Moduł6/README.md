@@ -1,15 +1,14 @@
-# Modu³ 6: Integracja z Firebase
-# Modu³ 6: Integracja z Firebase
+# Module 6: Firebase Integration
 
-## Lekcja 1: Konfiguracja Firebase w projekcie Vue
+## Lesson 1: Configuring Firebase in a Vue Project
 
-### Teoria:
+### Theory:
 
-- Firebase: Jak zintegrowaæ Firebase z projektem Vue.
+- **Firebase**: Integrating Firebase with a Vue project for real-time data and user authentication.
 
-  - Dokumentacja: [Firebase Documentation](https://firebase.google.com/docs)
+  - Documentation: [Firebase Documentation](https://firebase.google.com/docs)
 
-### Przyk³ad:
+### Example:
 
 `js
 
@@ -43,14 +42,83 @@ initializeApp(firebaseConfig);
 
 createApp(App).mount('#app');
 
+` 
+
+### Step-by-step Task:
+
+1. Set up a new Firebase project in the Firebase console.
+
+2. Add Firebase configuration to a Vue project.
+
+3. Initialize Firebase in the main.js file.
+
+### Detailed Task:
+
+Configure Firebase authentication and Firestore in your Vue project.
+
+### Advanced Task:
+
+Implement a user authentication system and a Firestore database with CRUD operations in your Vue application.
+
+# Module 6: Firebase Integration
+
+## Lesson 1: Configuring Firebase in a Vue Project
+
+### Theory:
+
+- **Firebase**: Integrating Firebase with a Vue project for real-time data and user authentication.
+
+  - Documentation: [Firebase Documentation](https://firebase.google.com/docs)
+
+### Example:
+
+`js
+
+import { createApp } from 'vue';
+
+import { initializeApp } from 'firebase/app';
+
+import App from './App.vue';
 
 
 
+const firebaseConfig = {
 
-### Proste zadanie:
+  apiKey: 'YOUR_API_KEY',
 
-- Skonfiguruj Firebase w swoim projekcie Vue.
+  authDomain: 'YOUR_AUTH_DOMAIN',
 
-### Zaawansowane zadanie:
+  projectId: 'YOUR_PROJECT_ID',
 
-- Dodaj obs³ugê autoryzacji u¿ytkowników za pomoc¹ Firebase Authentication.
+  storageBucket: 'YOUR_STORAGE_BUCKET',
+
+  messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+
+  appId: 'YOUR_APP_ID'
+
+};
+
+
+
+initializeApp(firebaseConfig);
+
+createApp(App).mount('#app');
+
+` 
+
+### Step-by-step Task:
+
+1. Set up a new Firebase project in the Firebase console.
+
+2. Add Firebase configuration to a Vue project.
+
+3. Initialize Firebase in the main.js file.
+
+### Detailed Task:
+
+Configure Firebase authentication and Firestore in your Vue project.
+
+### Advanced Task:
+
+Implement a user authentication system and a Firestore database with CRUD operations in your Vue application.
+

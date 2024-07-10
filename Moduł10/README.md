@@ -1,15 +1,14 @@
-# Modu³ 10: Dodatkowe biblioteki i narzêdzia
-# Modu³ 10: Dodatkowe biblioteki i narzêdzia
+# Module 10: Additional Libraries and Tools
 
-## Lekcja 1: PrimeVue - Komponenty UI
+## Lesson 1: PrimeVue - UI Components
 
-### Teoria:
+### Theory:
 
-- PrimeVue: Biblioteka komponentów UI dla Vue.js.
+- **PrimeVue**: A library of UI components for Vue.js.
 
-  - Dokumentacja: [PrimeVue Documentation](https://www.primefaces.org/primevue/)
+  - Documentation: [PrimeVue Documentation](https://www.primefaces.org/primevue/)
 
-### Przyk³ad:
+### Example:
 
 `js
 
@@ -31,12 +30,21 @@ app.component('Button', Button);
 
 app.mount('#app');
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Install PrimeVue in your Vue project.
 
-- Zainstaluj i skonfiguruj PrimeVue w swoim projekcie.
+2. Configure PrimeVue in your main.js file.
 
-### Zaawansowane zadanie:
+3. Add a PrimeVue button component to your application.
 
-- Dodaj kilka komponentów PrimeVue do swojej aplikacji, np. przyciski, tabele, formularze.
+### Detailed Task:
+
+Add several PrimeVue components to your project, such as buttons, tables, and forms.
+
+### Advanced Task:
+
+Build a fully functional UI using PrimeVue components, including complex forms and interactive tables.
+

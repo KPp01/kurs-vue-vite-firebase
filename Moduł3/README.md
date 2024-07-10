@@ -1,15 +1,14 @@
-# Modu³ 3: Podstawy Vue.js
-# Modu³ 3: Podstawy Vue.js
+# Module 3: Vue.js Basics
 
-## Lekcja 1: Tworzenie komponentów i reu¿ywalnoœæ kodu
+## Lesson 1: Creating Reusable Components and Managing State
 
-### Teoria:
+### Theory:
 
-- Komponenty w Vue.js: jak tworzyæ, reu¿ywaæ i komponowaæ komponenty.
+- **Reusable Components**: How to create, reuse, and compose components in Vue.js.
 
-  - Dokumentacja: [Vue.js Components](https://vuejs.org/v2/guide/components.html)
+  - Documentation: [Vue.js Components](https://vuejs.org/v2/guide/components.html)
 
-### Przyk³ad:
+### Example:
 
 `ue
 
@@ -27,7 +26,7 @@
 
 <script>
 
-import ChildComponent from './ChildComponent.vue'
+import ChildComponent from './ChildComponent.vue';
 
 export default {
 
@@ -41,12 +40,21 @@ export default {
 
 </script>
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Create a parent component and a child component.
 
-- Stwórz prosty komponent rodzica i komponent dziecka.
+2. Pass data from the parent component to the child component using props.
 
-### Zaawansowane zadanie:
+3. Emit an event from the child component to the parent component.
 
-- Stwórz bardziej z³o¿on¹ hierarchiê komponentów z przekazywaniem danych miêdzy nimi.
+### Detailed Task:
+
+Create a parent component that contains multiple child components, each displaying different data.
+
+### Advanced Task:
+
+Build a complex component structure that includes nested components and dynamic data binding.
+

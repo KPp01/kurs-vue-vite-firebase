@@ -1,38 +1,38 @@
-# Finalny Projekt: Aplikacja do zarz¹dzania firm¹
-# Finalny Projekt: Aplikacja do zarz¹dzania firm¹
+# Final Project: Company Management Application
 
-## Cel projektu:
+## Project Goal:
 
-- Stworzenie zaawansowanej aplikacji do zarz¹dzania firm¹ zajmuj¹c¹ siê monta¿em pomp ciep³a, pieców gazowych, itp.
+Build an advanced application for managing a company specializing in installing heat pumps, gas boilers, etc.
 
-## Wymagania funkcjonalne:
+## Functional Requirements:
 
-- System logowania i rejestracji u¿ytkowników z ró¿nymi poziomami uprawnieñ.
+- User login and registration system with different levels of permissions.
 
-- Zarz¹dzanie klientami, budowami, materia³ami, cenami, cennikiem us³ug.
+- Managing clients, projects, materials, prices, and service pricing.
 
-- Kalkulator kosztów, system wycen, zarz¹dzanie procesami w firmie.
+- Cost calculator, quotation system, process, and project management.
 
-## Technologie:
+## Technologies:
 
 - Vue.js, Vite, Node.js, Firebase (Firestore, Authentication, Functions, Hosting)
 
-## Krok po kroku:
+## Step-by-step Task:
 
-1. Stworzenie projektu Vue.js z Vite.
+1. Create a Vue.js project with Vite.
 
-2. Konfiguracja Firebase i Firestore.
+2. Configure Firebase and Firestore.
 
-3. Implementacja systemu logowania i rejestracji.
+3. Implement a user login and registration system.
 
-4. Implementacja zarz¹dzania klientami i budowami.
+4. Implement client and project management.
 
-5. Implementacja kalkulatora kosztów i systemu wycen.
+5. Implement a cost calculator and quotation system.
 
-6. Wdro¿enie aplikacji na Firebase Hosting.
+6. Deploy the application to Firebase Hosting.
 
-7. Monitorowanie i skalowanie aplikacji.
+7. Monitor and scale the application.
 
-## Zadania:
+## Detailed Task:
 
-- Ka¿dy etap projektu powinien zawieraæ szczegó³owe zadania i kroki do wykonania, opisane w README.md w odpowiednich modu³ach.
+Each project stage should include detailed tasks and steps to be completed, described in the README.md in the appropriate modules.
+

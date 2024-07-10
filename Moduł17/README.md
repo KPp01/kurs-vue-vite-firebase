@@ -1,15 +1,14 @@
-# Modu³ 17: Utrzymanie i Skalowanie
-# Modu³ 17: Utrzymanie i Skalowanie
+# Module 17: Maintenance and Scaling
 
-## Lekcja 1: Monitorowanie aplikacji
+## Lesson 1: Monitoring Your Application
 
-### Teoria:
+### Theory:
 
-- Monitorowanie aplikacji: Jak monitorowaæ wydajnoœæ i dostêpnoœæ aplikacji.
+- **Monitoring**: How to monitor the performance and availability of your application.
 
-  - Dokumentacja: [Firebase Performance Monitoring](https://firebase.google.com/docs/perf-mon)
+  - Documentation: [Firebase Performance Monitoring](https://firebase.google.com/docs/perf-mon)
 
-### Przyk³ad:
+### Example:
 
 `js
 
@@ -19,12 +18,21 @@ import { getPerformance } from 'firebase/performance';
 
 const perf = getPerformance();
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Set up performance monitoring in your application.
 
-- Skonfiguruj monitorowanie wydajnoœci dla swojej aplikacji.
+2. Analyze performance data in the Firebase console.
 
-### Zaawansowane zadanie:
+3. Set up alerts for performance issues.
 
-- Dodaj alerty i raporty wydajnoœciowe.
+### Detailed Task:
+
+Implement performance monitoring and alerting for key metrics in your application.
+
+### Advanced Task:
+
+Develop a comprehensive monitoring and alerting system for your application, including error tracking and user analytics.
+

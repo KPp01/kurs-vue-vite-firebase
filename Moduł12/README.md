@@ -1,15 +1,14 @@
-# Modu³ 12: Progressive Web Apps (PWA)
-# Modu³ 12: Progressive Web Apps (PWA)
+# Module 12: Progressive Web Apps (PWA)
 
-## Lekcja 1: Wprowadzenie do PWA
+## Lesson 1: Introduction to PWA
 
-### Teoria:
+### Theory:
 
-- PWA: Jak tworzyæ aplikacje progresywne, które dzia³aj¹ offline i maj¹ funkcje zbli¿one do aplikacji natywnych.
+- **PWA**: How to create progressive web apps that work offline and provide a native app-like experience.
 
-  - Dokumentacja: [PWA Documentation](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+  - Documentation: [PWA Documentation](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 
-### Przyk³ad:
+### Example:
 
 `js
 
@@ -35,12 +34,21 @@ if ('serviceWorker' in navigator) {
 
 }
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Create a manifest file for your PWA.
 
-- Dodaj plik manifestu i zarejestruj Service Workera w swojej aplikacji.
+2. Register a service worker in your Vue project.
 
-### Zaawansowane zadanie:
+3. Test the PWA functionality in your browser.
 
-- Dodaj obs³ugê powiadomieñ push i synchronizacji w tle.
+### Detailed Task:
+
+Implement offline capabilities and caching strategies for your PWA.
+
+### Advanced Task:
+
+Build a fully functional PWA with push notifications and background synchronization.
+

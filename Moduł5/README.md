@@ -1,19 +1,18 @@
-# Modu³ 5: Optymalizacja i wydajnoœæ
-# Modu³ 5: Optymalizacja i wydajnoœæ
+# Module 5: Optimization and Performance
 
-## Lekcja 1: Lazy Loading i Code Splitting
+## Lesson 1: Lazy Loading and Code Splitting
 
-### Teoria:
+### Theory:
 
-- Lazy Loading: jak ³adowaæ komponenty na ¿¹danie, aby poprawiæ wydajnoœæ aplikacji.
+- **Lazy Loading**: How to load components on demand to improve application performance.
 
-  - Dokumentacja: [Vue.js Lazy Loading](https://router.vuejs.org/guide/advanced/lazy-loading.html)
+  - Documentation: [Vue.js Lazy Loading](https://router.vuejs.org/guide/advanced/lazy-loading.html)
 
-### Przyk³ad:
+### Example:
 
 `js
 
-const Foo = () => import('./Foo.vue')
+const Foo = () => import('./Foo.vue');
 
 export default {
 
@@ -25,12 +24,21 @@ export default {
 
 }
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Implement lazy loading for a component in your Vue application.
 
-- Stwórz komponent, który ³aduje inny komponent na ¿¹danie.
+2. Test the performance improvement using browser developer tools.
 
-### Zaawansowane zadanie:
+3. Optimize other parts of your application using code splitting.
 
-- Zaimplementuj lazy loading dla wielu komponentów w swojej aplikacji.
+### Detailed Task:
+
+Create a Vue application with multiple routes and implement lazy loading for each route component.
+
+### Advanced Task:
+
+Optimize a large application by implementing lazy loading, code splitting, and performance monitoring.
+

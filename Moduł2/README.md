@@ -1,15 +1,14 @@
-# Modu³ 2: Tworzenie Podstawowej Aplikacji Vue
-# Modu³ 2: Tworzenie Podstawowej Aplikacji Vue
+# Module 2: Building a Basic Vue Application
 
-## Lekcja 1: Stwórz i skonfiguruj prosty komponent Vue. Wyjaœnij strukturê komponentu i jego czêœci.
+## Lesson 1: Creating and Configuring a Simple Vue Component
 
-### Teoria:
+### Theory:
 
-- Komponenty Vue: Podstawowe elementy budowy aplikacji Vue.js, sk³adaj¹ce siê z szablonu (template), logiki (script) i stylów (style).
+- **Vue Components**: The building blocks of Vue.js applications, consisting of a template, script, and style.
 
-  - Dokumentacja: [Vue.js Components](https://vuejs.org/v2/guide/components.html)
+  - Documentation: [Vue.js Components](https://vuejs.org/v2/guide/components.html)
 
-### Przyk³ad:
+### Example:
 
 `ue
 
@@ -54,12 +53,22 @@ export default {
   }
 
 </style>
-n
 
-### Proste zadanie:
+` 
 
-- Stwórz komponent Vue, który wyœwietla wiadomoœæ.
+### Step-by-step Task:
 
-### Zaawansowane zadanie:
+1. Create a new Vue component that displays a message.
 
-- Dodaj mo¿liwoœæ interakcji z komponentem, np. przycisk zmieniaj¹cy wyœwietlan¹ wiadomoœæ.
+2. Add styling to the component.
+
+3. Render the component in the main application.
+
+### Detailed Task:
+
+Create a Vue component that displays a message and includes a button that changes the message when clicked.
+
+### Advanced Task:
+
+Create a complex hierarchy of components with data being passed between them using props and events.
+

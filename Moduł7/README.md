@@ -1,15 +1,14 @@
-# Modu³ 7: Firestore
-# Modu³ 7: Firestore
+# Module 7: Firestore
 
-## Lekcja 1: Konfiguracja Firestore
+## Lesson 1: Configuring Firestore
 
-### Teoria:
+### Theory:
 
-- Firestore: Jak skonfigurowaæ Firestore w projekcie Vue.
+- **Firestore**: Configuring Firestore in a Vue project for real-time data storage and retrieval.
 
-  - Dokumentacja: [Firestore Documentation](https://firebase.google.com/docs/firestore)
+  - Documentation: [Firestore Documentation](https://firebase.google.com/docs/firestore)
 
-### Przyk³ad:
+### Example:
 
 `js
 
@@ -27,12 +26,21 @@ querySnapshot.forEach((doc) => {
 
 });
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Set up Firestore in your Vue project.
 
-- Skonfiguruj Firestore w swoim projekcie Vue.
+2. Create a Firestore collection and add documents to it.
 
-### Zaawansowane zadanie:
+3. Retrieve and display data from Firestore in your Vue component.
 
-- Stwórz funkcje do dodawania, edytowania i usuwania dokumentów w Firestore.
+### Detailed Task:
+
+Implement CRUD operations in your Vue project using Firestore.
+
+### Advanced Task:
+
+Build a complete data management system with Firestore, including real-time updates and data synchronization.
+

@@ -1,32 +1,44 @@
-# Modu³ 1: Wprowadzenie do Narzêdzi i Œrodowiska
-## Lekcja 1: Wyjaœnij podstawy Vue.js, Vite, Node.js i Firebase
+# Module 1: Introduction to Tools and Environment
 
-### Teoria:
+## Lesson 1: Basics of Vue.js, Vite, Node.js, and Firebase
 
-- Vue.js: Framework JavaScript do budowy interfejsów u¿ytkownika, który umo¿liwia tworzenie z³o¿onych aplikacji webowych przy u¿yciu komponentów.
+### Theory:
 
-  - Dokumentacja: [Vue.js Documentation](https://vuejs.org/v2/guide/)
+- **Vue.js**: A JavaScript framework for building user interfaces using components.
 
-- Vite: Narzêdzie do budowania aplikacji webowych, które oferuje szybkie tworzenie prototypów i budowanie projektów Vue.js.
+  - Documentation: [Vue.js Documentation](https://vuejs.org/v2/guide/)
 
-  - Dokumentacja: [Vite Documentation](https://vitejs.dev/guide/)
+- **Vite**: A build tool that provides a faster and leaner development experience for modern web projects.
 
-- Node.js: Œrodowisko uruchomieniowe JavaScript, które pozwala na uruchamianie kodu JavaScript po stronie serwera.
+  - Documentation: [Vite Documentation](https://vitejs.dev/guide/)
 
-  - Dokumentacja: [Node.js Documentation](https://nodejs.org/en/docs/)
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine for building server-side applications.
 
-- Firebase: Platforma Google oferuj¹ca ró¿norodne us³ugi, takie jak bazy danych, autoryzacja, hosting i funkcje chmurowe, które wspieraj¹ rozwój aplikacji webowych.
+  - Documentation: [Node.js Documentation](https://nodejs.org/en/docs/)
 
-  - Dokumentacja: [Firebase Documentation](https://firebase.google.com/docs)
+- **Firebase**: A platform by Google offering various services like databases, authentication, hosting, and cloud functions to support web application development.
 
-### Przyk³ad:
+  - Documentation: [Firebase Documentation](https://firebase.google.com/docs)
 
-- Przyk³adowa aplikacja webowa, która u¿ywa Vue.js do interfejsu u¿ytkownika, Vite do budowania projektu, Node.js do obs³ugi backendu i Firebase do przechowywania danych oraz autoryzacji u¿ytkowników.
+### Example:
 
-### Proste zadanie:
+A sample web application using Vue.js for UI, Vite for building, Node.js for backend, and Firebase for data storage and user authentication.
 
-- Przygotuj krótkie prezentacje dla ka¿dej technologii, wyjaœniaj¹c ich podstawy i zalety.
+### Step-by-step Task:
 
-### Zaawansowane zadanie:
+1. Create a simple Vue.js project using Vite.
 
-- Stwórz diagram przedstawiaj¹cy, jak wszystkie te technologie wspó³pracuj¹ w ramach jednej aplikacji webowej.
+2. Set up Firebase and initialize a Firestore database.
+
+3. Implement user authentication using Firebase.
+
+4. Deploy the application to Firebase Hosting.
+
+### Detailed Task:
+
+Prepare a presentation explaining the basics and benefits of each technology (Vue.js, Vite, Node.js, Firebase).
+
+### Advanced Task:
+
+Create a diagram showing how all these technologies interact within a single web application.
+

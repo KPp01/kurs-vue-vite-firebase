@@ -1,15 +1,14 @@
-# Modu³ 9: Testowanie i debugowanie
-# Modu³ 9: Testowanie i debugowanie
+# Module 9: Testing and Debugging
 
-## Lekcja 1: Testowanie jednostkowe z Jest
+## Lesson 1: Unit Testing with Jest
 
-### Teoria:
+### Theory:
 
-- Testowanie jednostkowe: Podstawy testowania jednostkowego z u¿yciem Jest.
+- **Unit Testing**: Basics of unit testing with Jest for Vue.js components.
 
-  - Dokumentacja: [Jest Documentation](https://jestjs.io/)
+  - Documentation: [Jest Documentation](https://jestjs.io/)
 
-### Przyk³ad:
+### Example:
 
 `js
 
@@ -33,12 +32,21 @@ test('renders props.msg when passed', () => {
 
 });
 
+` 
 
+### Step-by-step Task:
 
-### Proste zadanie:
+1. Install Jest and Vue Test Utils in your project.
 
-- Stwórz prosty test jednostkowy dla komponentu Vue.
+2. Create a simple test for a Vue component.
 
-### Zaawansowane zadanie:
+3. Run the test and verify the output.
 
-- Napisz testy jednostkowe dla kilku komponentów w swojej aplikacji.
+### Detailed Task:
+
+Write unit tests for multiple components in your Vue project.
+
+### Advanced Task:
+
+Develop a comprehensive test suite for your Vue application, including unit tests, integration tests, and snapshot tests.
+
